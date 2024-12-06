@@ -1,5 +1,6 @@
 module "rg_group" {
-  source = "git::https://github.com/renato4770/Terraform_labs.git//modules/rg_group?ref=v1.1"
+  source  = "app.terraform.io/lab01_ra/rg_grouplab/azure"
+  version = "0.0.1"
   rg_name = var.rg_name
   enviroments = var.enviroments
   regions = var.regions
