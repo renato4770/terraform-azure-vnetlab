@@ -1,4 +1,4 @@
-module "rg_group" {
+module "rg_grouplab" {
   source  = "app.terraform.io/lab01_ra/rg_grouplab/azure"
   version = "0.0.1"
   rg_name = var.rg_name
